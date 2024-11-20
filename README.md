@@ -1,11 +1,11 @@
 # My_CDE_FINAL_PROJECT
 
 
-# CDE Capstone Project
+
 ## Project Overview
 This project involves building a data platform for a travel agency to process country-related data using the REST API (https://restcountries.com/v3.1/all). The processed data is stored in a cloud-based Data Lake and Database/Data Warehouse for predictive analytics by the Data Science team. The solution incorporates ETL workflows, data modeling, and CI/CD pipelines.
 
-# Features
+## Features
 ## Data Extraction
 
 Fetch data from the REST API containing details about countries.
@@ -45,7 +45,7 @@ Infrastructure as Code
 All cloud resources (e.g., S3, IAM, RDS) are provisioned using Terraform.
 Terraform state management is handled in AWS S3.
 
-# Project Architecture
+##Project Architecture
 Components:
 Data Extraction
 
@@ -77,7 +77,7 @@ Terraform
 Git
 
 
-# How to Use
+## How to Use
 Data Pipeline Execution
 Extract and Load Raw Data
 
@@ -91,7 +91,7 @@ Use DBT to transform data into analytical models for use by the Data Science tea
 
 
 
-# Folder Structure
+## Folder Structure
 
 CDE_Final_Project/
 ├── dags/                          # Airflow DAGs
@@ -104,7 +104,7 @@ CDE_Final_Project/
 └── .gitignore                     # Git ignore rules
 
 
-# Technologies Used
+## Technologies Used
 
 Cloud Provider: AWS (S3, RDS)
 Orchestration: Apache Airflow
@@ -115,7 +115,7 @@ Infrastructure as Code: Terraform
 CI/CD: GitHub Actions
 Version Control: Git
 
-# Challenges and Solutions
+## Challenges and Solutions
 Handling Large Data Sets
 Used Parquet format for efficient storage and processing.
 Automating the Workflow
@@ -123,7 +123,7 @@ Leveraged Apache Airflow for end-to-end pipeline orchestration.
 Cloud Infrastructure Management
 Implemented Terraform for consistent and reusable infrastructure provisioning.
 
-# Insights and Learnings
+## Insights and Learnings
 
 Successfully automated ETL pipelines for raw and analytical data storage.
 Improved performance by using efficient file formats and structured data models.
